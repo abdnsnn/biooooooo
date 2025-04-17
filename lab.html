@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>المختبر الافتراضي - عالم الكيمياء الحيوية</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/lab.css">
+  <!-- خطوط جوجل العربية -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- أيقونات Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- حاويات التأثيرات المرئية -->
+  <div class="bubbles-container"></div>
+  <div class="molecules-container"></div>
+  <div class="dna-container">
+    <div class="dna-helix"></div>
+  </div>
+  
+  <!-- الرأس -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="../images/logo.svg" alt="شعار عالم الكيمياء الحيوية">
+        <h1>عالم الكيمياء الحيوية</h1>
+      </div>
+      <nav>
+        <button class="mobile-menu-btn">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul>
+          <li><a href="../index.html">الرئيسية</a></li>
+          <li><a href="../index.html#about">عن المجتمع</a></li>
+          <li><a href="../index.html#services">خدماتنا</a></li>
+          <li><a href="../index.html#departments">الأقسام</a></li>
+          <li><a href="../index.html#lab">المختبر الافتراضي</a></li>
+          <li><a href="../index.html#research">الأبحاث</a></li>
+          <li><a href="../index.html#events">الفعاليات</a></li>
+          <li><a href="../index.html#contact">تواصل معنا</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <!-- عنوان الصفحة -->
+  <section class="page-title">
+    <div class="section-title">
+      <h2>المختبر الافتراضي ثلاثي الأبعاد</h2>
+    </div>
+    <div class="breadcrumb">
+      <a href="../index.html">الرئيسية</a> / <span>المختبر الافتراضي</span>
+    </div>
+  </section>
+  
+  <!-- نبذة عن المختبر الافتراضي -->
+  <section class="section-intro">
+    <div class="container">
+      <div class="intro-content">
+        <div class="intro-text">
+          <h3>عن المختبر الافتراضي</h3>
+          <p>يقدم المختبر الافتراضي ثلاثي الأبعاد تجربة تفاعلية فريدة تمكن الطلاب والباحثين من إجراء تجارب الكيمياء الحيوية في بيئة افتراضية آمنة وواقعية. يحاكي المختبر بيئة المختبرات الحقيقية ويوفر مجموعة واسعة من الأجهزة والأدوات والمواد اللازمة لإجراء التجارب المختلفة.</p>
+          <p>يتضمن المختبر 90 تجربة متنوعة تغطي مختلف مجالات الكيمياء الحيوية، بما في ذلك دراسة السكريات، الدهون، البروتينات، الأحماض النووية، الجزيئات الحيوية، الهرمونات، المناعة، تحليل الدم، والكيمياء الحيوية الجزيئية والتحليلية. تم تصميم كل تجربة بعناية لتحقيق أهداف تعليمية محددة وتطوير المهارات العملية للطلاب.</p>
+        </div>
+        <div class="intro-image">
+          <img src="../images/virtual-lab-main.jpg" alt="المختبر الافتراضي">
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ميزات المختبر الافتراضي -->
+  <section class="lab-features">
+    <div class="container">
+      <div class="section-title">
+        <h2>ميزات المختبر الافتراضي</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-vr-cardboard"></i>
+          </div>
+          <h3>تجربة ثلاثية الأبعاد</h3>
+          <p>بيئة مختبر واقعية ثلاثية الأبعاد تحاكي المختبرات الحقيقية وتتيح للطلاب التفاعل مع الأجهزة والأدوات بشكل طبيعي.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-flask"></i>
+          </div>
+          <h3>90 تجربة متنوعة</h3>
+          <p>مجموعة شاملة من التجارب تغطي مختلف مجالات الكيمياء الحيوية، من التجارب الأساسية إلى التقنيات المتقدمة.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <h3>مرشد الذكاء الاصطناعي</h3>
+          <p>مساعد ذكي يقدم الإرشادات والتوجيهات خلال التجارب، ويجيب عن الأسئلة، ويقدم شرحاً مفصلاً للمفاهيم العلمية.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-clipboard-check"></i>
+          </div>
+          <h3>اختبارات قبلية وبعدية</h3>
+          <p>اختبارات تقييمية قبل وبعد كل تجربة لقياس مستوى فهم الطالب وتقدمه في استيعاب المفاهيم العلمية.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <h3>تسجيل التجارب</h3>
+          <p>إمكانية تسجيل التجارب كفيديوهات تعليمية يمكن مشاركتها على منصات التواصل الاجتماعي أو استخدامها للمراجعة.</p>
+        </div>
+        <div class="feature-card animate-on-scroll">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>تجارب تعاونية</h3>
+          <p>إمكانية إجراء التجارب بشكل تعاوني مع طلاب آخرين، مما يعزز مهارات العمل الجماعي والتواصل العلمي.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- فئات التجارب -->
+  <section class="experiment-categories">
+    <div class="container">
+      <div class="section-title">
+        <h2>فئات التجارب</h2>
+      </div>
+      <div class="categories-grid">
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-candy-cane"></i>
+          </div>
+          <h3>السكريات</h3>
+          <p>تجارب لدراسة بنية ووظائف السكريات، والكشف عنها، وتحليل خصائصها.</p>
+          <div class="category-stats">
+            <span>8 تجارب</span>
+          </div>
+          <a href="#sugars-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-oil-can"></i>
+          </div>
+          <h3>الدهون</h3>
+          <p>تجارب لدراسة بنية ووظائف الدهون، والكشف عنها، وتحليل خصائصها.</p>
+          <div class="category-stats">
+            <span>8 تجارب</span>
+          </div>
+          <a href="#lipids-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-egg"></i>
+          </div>
+          <h3>البروتينات</h3>
+          <p>تجارب لدراسة بنية ووظائف البروتينات، والكشف عنها، وتحليل خصائصها.</p>
+          <div class="category-stats">
+            <span>10 تجارب</span>
+          </div>
+          <a href="#proteins-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-dna"></i>
+          </div>
+          <h3>الأحماض النووية</h3>
+          <p>تجارب لدراسة بنية ووظائف الأحماض النووية، واستخلاصها، وتحليلها.</p>
+          <div class="category-stats">
+            <span>10 تجارب</span>
+          </div>
+          <a href="#nucleic-acids-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-atom"></i>
+          </div>
+          <h3>الجزيئات الحيوية</h3>
+          <p>تجارب لدراسة الجزيئات الحيوية المختلفة وتفاعلاتها في الخلايا الحية.</p>
+          <div class="category-stats">
+            <span>8 تجارب</span>
+          </div>
+          <a href="#biomolecules-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-syringe"></i>
+          </div>
+          <h3>الهرمونات</h3>
+          <p>تجارب لدراسة الهرمونات، وآليات عملها، وطرق الكشف عنها وقياسها.</p>
+          <div class="category-stats">
+            <span>8 تجارب</span>
+          </div>
+          <a href="#hormones-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-shield-virus"></i>
+          </div>
+          <h3>المناعة</h3>
+          <p>تجارب لدراسة جهاز المناعة، والاستجابة المناعية، والتقنيات المناعية.</p>
+          <div class="category-stats">
+            <span>8 تجارب</span>
+          </div>
+          <a href="#immunity-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-tint"></i>
+          </div>
+          <h3>تحليل الدم</h3>
+          <p>تجارب لتحليل مكونات الدم وقياس المؤشرات الحيوية المختلفة.</p>
+          <div class="category-stats">
+            <span>8 تجارب</span>
+          </div>
+          <a href="#blood-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-microscope"></i>
+          </div>
+          <h3>أجهزة الفحص الحيوي</h3>
+          <p>تجارب للتعرف على أجهزة الفحص الحيوي وكيفية استخدامها في التحليل.</p>
+          <div class="category-stats">
+            <span>8 تجارب</span>
+          </div>
+          <a href="#devices-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-vial"></i>
+          </div>
+          <h3>الكيمياء الحيوية الجزيئية</h3>
+          <p>تجارب متقدمة في الكيمياء الحيوية الجزيئية والتقنيات المرتبطة بها.</p>
+          <div class="category-stats">
+            <span>8 تجارب</span>
+          </div>
+          <a href="#molecular-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+        <div class="category-card animate-on-scroll">
+          <div class="category-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>الكيمياء الحيوية التحليلية</h3>
+          <p>تجارب في تقنيات التحليل الكيميائي الحيوي وتطبيقاتها المختلفة.</p>
+          <div class="category-stats">
+            <span>6 تجارب</span>
+          </div>
+          <a href="#analytical-experiments" class="category-button">استعراض التجارب</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- المختبر الافتراضي ثلاثي الأبعاد -->
+  <section class="virtual-lab-3d">
+    <div class="container">
+      <div class="section-title">
+        <h2>المختبر الافتراضي ثلاثي الأبعاد</h2>
+      </div>
+      <div class="lab-container">
+        <div id="lab-3d-container" class="lab-3d-view">
+          <!-- هنا سيتم عرض المختبر ثلاثي الأبعاد -->
+          <div class="lab-loading">
+            <div class="spinner"></div>
+            <p>جاري تحميل المختبر الافتراضي...</p>
+          </div>
+        </div>
+        <div id="equipment-info" class="equipment-info">
+          <!-- هنا سيتم عرض معلومات الأجهزة والتجارب المتاحة -->
+        </div>
+        <div id="experiment-interface" class="experiment-interface">
+          <div class="experiment-header">
+            <h3 id="experiment-title"></h3>
+            <button class="close-experiment"><i class="fas fa-times"></i></button>
+          </div>
+          <div class="experiment-content">
+            <div class="experiment-tabs">
+              <button class="tab-button active" data-tab="objectives">الأهداف</button>
+              <button class="tab-button" data-tab="introduction">المقدمة</button>
+              <button class="tab-button" data-tab="procedure">الإجراءات</button>
+              <button class="tab-button" data-tab="ai-assistant">المساعد الذكي</button>
+            </div>
+            <div class="tab-content">
+              <div id="objectives-tab" class="tab-pane active">
+                <h4>أهداف التجربة</h4>
+                <ul id="experiment-objectives"></ul>
+              </div>
+              <div id="introduction-tab" class="tab-pane">
+                <h4>مقدمة التجربة</h4>
+                <div id="experiment-introduction"></div>
+              </div>
+              <div id="procedure-tab" class="tab-pane">
+                <h4>خطوات التجربة</h4>
+                <div id="experiment-steps"></div>
+                <div id="step-result"></div>
+              </div>
+              <div id="ai-assistant-tab" class="tab-pane">
+                <h4>المساعد الذكي</h4>
+                <div class="ai-chat-container">
+                  <div class="ai-chat-messages">
+                    <div class="ai-message">
+                      <div class="ai-avatar">
+                        <img src="../images/ai-avatar.svg" alt="مساعد الكيمياء الحيوية">
+                      </div>
+                      <div class="ai-message-content">
+                        <p>مرحباً! أنا مساعد الكيمياء الحيوية. كيف يمكنني مساعدتك في هذه التجربة؟</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ai-chat-input">
+                    <input type="text" placeholder="اكتب سؤالك هنا...">
+                    <button><i class="fas fa-paper-plane"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="experiment-completion" class="experiment-completion">
+          <!-- هنا سيتم عرض رسالة إكمال التجربة -->
+        </div>
+        <div id="quiz-container" class="quiz-container">
+          <!-- هنا سيتم عرض الاختبارات القبلية والبعدية -->
+        </div>
+      </div>
+      <div class="lab-controls">
+        <div class="control-group">
+          <button id="start-lab" class="cta-button"><i class="fas fa-play"></i> بدء المختبر</button>
+          <button id="reset-lab" class="secondary-button"><i class="fas fa-redo"></i> إعادة تعيين</button>
+        </div>
+        <div class="control-group">
+          <button id="fullscreen-lab" class="secondary-button"><i class="fas fa-expand"></i> ملء الشاشة</button>
+          <button id="record-lab" class="secondary-button"><i class="fas fa-video"></i> تسجيل</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- أحدث التجارب -->
+  <section class="latest-experiments">
+    <div class="container">
+      <div class="section-title">
+        <h2>أحدث التجارب</h2>
+      </div>
+      <div class="experiments-grid">
+        <div class="experiment-card animate-on-scroll">
+          <div class="experiment-image">
+            <img src="../images/experiment-1.jpg" alt="استخلاص الحمض النووي">
+            <div class="experiment-category">الأحماض النووية</div>
+          </div>
+          <div class="experiment-content">
+            <h3>استخلاص الحمض النووي من الفواكه</h3>
+            <p>تجربة لاستخلاص الحمض النووي من الفواكه باستخدام مواد بسيطة متوفرة في المنزل، وفحص خصائصه.</p>
+            <div class="experiment-meta">
+              <span><i class="fas fa-clock"></i> 30 دقيقة</span>
+              <span><i class="fas fa-signal"></i> مبتدئ</span>
+            </div>
+            <a href="#start-experiment" class="experiment-button" data-experiment="dna_extraction_fruits">بدء التجربة</a>
+          </div>
+        </div>
+        <div class="experiment-card animate-on-scroll">
+          <div class="experiment-image">
+            <img src="../images/experiment-2.jpg" alt="الكشف عن البروتينات">
+            <div class="experiment-category">البروتينات</div>
+          </div>
+          <div class="experiment-content">
+            <h3>الكشف عن البروتينات باستخدام تفاعل بيوريت</h3>
+            <p>تجربة للكشف عن وجود البروتينات في العينات المختلفة باستخدام تفاعل بيوريت، وتحديد تركيزها.</p>
+            <div class="experiment-meta">
+              <span><i class="fas fa-clock"></i> 20 دقيقة</span>
+              <span><i class="fas fa-signal"></i> مب
+(Content truncated due to size limit. Use line ranges to read in chunks)
